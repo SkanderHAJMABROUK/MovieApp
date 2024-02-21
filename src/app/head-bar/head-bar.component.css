@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    }
+    button{
+    margin-top: 20px;
+    margin-right:20px ;
+    color: yellow;
+    background-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    width: 100px;
+    height: 50px;
+    }
+    svg{
+    padding-top: 5px;
+    }
+    
+    h1{
+    padding-left: 20px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }

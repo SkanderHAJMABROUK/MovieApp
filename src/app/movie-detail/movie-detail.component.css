@@ -1,0 +1,72 @@
+body
+{
+  background-color: black;
+}
+.container
+{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+p
+{
+  line-height: 1.6;
+  padding-left: 20px;
+}
+h2
+{
+  padding-left: 20px;
+}
+span
+{
+  display: inline-block;
+  color: yellow;
+  width: 150px;
+  font-weight: bold;
+}
+fa-icon
+{
+  color: red;
+  text-align: right;
+}
+button
+{
+  padding: 5px 10px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+.left-block
+{
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+.child
+{
+  position: absolute;
+  z-index: 1;
+  margin: 5px;
+}
+img
+{
+  height: 330px;
+  width: 220px;
+}
+.btn-add
+{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.head
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}

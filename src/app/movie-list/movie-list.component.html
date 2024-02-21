@@ -1,0 +1,20 @@
+<app-search-bar (selectMovieEvent)="updateMovieList($event)"></app-search-bar>
+
+<div class="container">
+        <div *ngIf="selectedMovieList; else allmovies" class="container">
+                <div class="movie-card" *ngFor="let movie of selectedMovieList">
+                <a [routerLink]="['movie', movie.id]">https://www.themoviedb.org/t/p/w220_and_h330_face{{movie.poster_path}}
+                        <img src="" />
+                        <h4>{{movie.title}}</h4> 
+                </a>
+        </div>
+        </div>
+        <ng-template #allmovies class="container">
+        <div class="movie-card" *ngFor="let movie of movieList">   
+            <a [routerLink]="['movie', movie.id]">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face{{movie.poster_path}}" />
+                <h4>{{movie.title}}</h4>   
+            </a>
+        </div>
+        </ng-template>
+</div>

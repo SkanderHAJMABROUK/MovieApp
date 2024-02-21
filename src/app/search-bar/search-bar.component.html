@@ -1,0 +1,7 @@
+<div class="container">
+   <i><fa-icon [icon]="faMagnify"> </fa-icon></i>
+   <input class="search" type="text" #title
+   placeholder="Movie title"
+   (keypress)="searchMovieByTitle(title.value)" 
+   (keyup.backspace)="searchMovieByTitle(title.value)" />
+</div>

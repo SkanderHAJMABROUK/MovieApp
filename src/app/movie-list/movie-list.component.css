@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    /* padding-top: 20px; */
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 330px;
+    width: 220px;
+}
+
+h4{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    width: 220px;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(255, 222, 10, 0.939);
+    color: black;
+    margin-top: 0px;
+}
+
+a{text-decoration: none;}
